@@ -1,0 +1,49 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#aaaaaa</item>
+        <item name="colorPrimaryVariant">@color/colorDark</item>
+        <item name="colorOnPrimary">#aaaaaa</item>
+
+        <item name="colorSecondary">#aaaaaa</item>
+        <item name="colorSecondaryVariant">@color/colorDark</item>
+        <item name="colorOnSecondary">#aaaaaa</item>
+
+        <!-- Status Bar and Navigation Colors -->
+        <item name="android:statusBarColor">@color/colorBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+    </style>
+
+    <style name="ActionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="fontFamily">@font/nunito_sans_bold</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+    </style>
+    <style name="roundedCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+    <style name="ActionBarThemeOverlay">
+        <item name="android:textColorPrimary">#aaaaaa</item>
+        <item name="colorControlNormal">#525252</item>
+        <item name="colorControlHighlight">#aaaaaa</item>
+        <item name="android:textColorHint">#525252</item>
+    </style>
+    <style name="SpinnerTheme">
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:fontFamily">@font/nunito_sans_bold</item>
+        <item name="android:textSize">48px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:foregroundGravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_image</item>
+        <item name="colorPrimary">#aaaaaa</item>
+        <item name="colorPrimaryVariant">@color/colorDark</item>
+        <item name="colorOnPrimary">#aaaaaa</item>
+        <item name="android:statusBarColor">@color/colorBackground</item>
+    </style>
+</resources>

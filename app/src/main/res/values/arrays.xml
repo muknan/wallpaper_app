@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Hot</item>
+        <item>New</item>
+        <item>Top Week</item>
+        <item>Top Year</item>
+        <item>Top All Time</item>
+    </string-array>
+</resources>
